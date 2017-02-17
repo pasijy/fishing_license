@@ -1,0 +1,22 @@
+/*
+Theme Name: Fishing
+Theme URI: http://users.metropolia.fi
+Author: Pasi Jylhä-Ollila
+Author URI: https://metropolia.fi/
+Description: Fishing License test site
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue
+Text Domain: Fishing
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #bbcde3;
+    color: #888;
+}
+
