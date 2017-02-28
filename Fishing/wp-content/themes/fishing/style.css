@@ -1,0 +1,85 @@
+/*
+Theme Name: Fishing
+Theme URI: http://users.metropolia.fi
+Author: Pasi Jylhä-Ollila
+Author URI: https://metropolia.fi/
+Description: Fishing License test site
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue
+Text Domain: Fishing
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Poistaa valikosta pallot */
+body, ul {
+    margin: 0;
+}
+
+body, li {
+    display: inline;
+}
+
+body, ul li a {
+    /* padding: 5px 20px 5px 20px; */
+    padding: 5px 5% 5px 5%;
+    color: white;
+    background: #aaa;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #bbcde3;
+    color: #888;
+}
+
+/* Klikattavat "napit"/linkit */
+body p a {
+    padding: 5px 20px 5px 20px;
+    color: white;
+    background: #aaa;
+    text-decoration: none;
+    background-color: steelblue;
+
+}
+
+
+#primary-menu li.current-menu-item a {
+	/* background: #fff url(images/primary-menu-active.png) repeat-x 0 0;
+    border-top: 20px;
+	border-bottom: 2px solid #fff; */
+}
+
+.current_page_item a {
+    background-color: dodgerblue;
+}
+
+#remove {
+    background-color: firebrick;
+}
+
+#about {
+    background-color: grey;
+}
+
+#save {
+    text-align: center;
+    color: brown;
+    font-size: 20px;
+}
+
+body h1 {
+    text-align: center;
+}
+
+img {
+    margin: 5px;
+    padding: 10px;
+}
+#imgcenter {
+    
+}
