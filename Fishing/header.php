@@ -9,9 +9,8 @@
     <title>Fishing License</title>
     <?php wp_head; ?>
 </head>
-<body> <?php body_class(); ?>>
+<body> <<?php body_class(); ?>>
     <header>
-        <br />
         <br />
         <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
         
